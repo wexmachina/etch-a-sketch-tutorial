@@ -1,7 +1,7 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: cente;
+    align-items: center;
     flex-direction: column;    
 }
 
