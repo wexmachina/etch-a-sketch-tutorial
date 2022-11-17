@@ -9,12 +9,14 @@
     <h1>Etch-A-Sketch</h1>
     <div class="header">
         <h3>Number of Squares</h3>
-        <button id="select">Select Number</button>
+        <button id="popup">Select Number</button>
     </div>
+    <p id="message"></p>
+    <p id="draw"></p>
     <div class="container"></div>
     <div class="footer">
-        <button>Black</button> 
-        <button>Random</button>
-        <button>Reset</button>
+        <button onclick="setColor('black')">Black</button> 
+        <button onclick="setColor('random')" >Random</button>
+        <button onclick="resetContainer()">Reset</button>
     </div>
 </body>
